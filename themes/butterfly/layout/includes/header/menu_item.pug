@@ -1,5 +1,9 @@
 if theme.menu
   .menus_items
+    .menus_item
+      a.site-page(href='https://pan.yanqi.me', target='_self')
+        i.iab.carbon--cloud
+        span=' '+'网盘'
     each value, label in theme.menu
       if typeof value !== 'object'
         .menus_item
