@@ -783,7 +783,7 @@ wordcount:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
+medium_zoom: true
 
 # fancybox
 # https://fancyapps.com/fancybox/
@@ -837,14 +837,14 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: true
+  enable: false
   exclude:
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: true
+  enable: false
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -908,7 +908,8 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
+    # - <link rel="stylesheet" href="/css/custom.css" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/my_icon.css">
   bottom:
     - <div class="aplayer no-destroy" data-id="9107945258" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"></div>
     # - <script src="xxxx"></script>
