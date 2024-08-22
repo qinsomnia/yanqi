@@ -636,7 +636,7 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: linear-gradient(90deg, rgba(228,201,247,1) 0%, rgba(194,176,227,1) 37%, rgba(148,187,233,1) 100%);
+background: url(https://pan.yanqi.me/p/Img/__cover_bg.png?sign=ygr_TxCSeTbI17GzHXCX1E75bxXqbcBWi1pEeZo-HhI=:0)
 
 # Footer Background
 footer_bg: true
@@ -755,7 +755,7 @@ subtitle:
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
