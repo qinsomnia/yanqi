@@ -1,7 +1,9 @@
 ---
 title: ubuntu-service
 date: 2024-04-14 23:02:08
-tags: ubuntu service
+tags: 
+  - ubuntu
+  - service
 ---
 ### docker-nginx
 位置: /etc/systemd/system/docker-nginx.service

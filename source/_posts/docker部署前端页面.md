@@ -1,7 +1,9 @@
 ---
 title: docker部署前端页面
 date: 2024-04-14 23:04:42
-tags: docker nginx
+tags:
+  - docker
+  - nginx
 description: docker在windows上使用
 ---
 ### Dockerfile

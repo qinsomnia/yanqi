@@ -2,7 +2,9 @@
 layout: docker
 title: InfluxDB的docker安装方法
 date: 2024-05-26 01:03:16
-tags: InfluxDB docker
+tags:
+  - influxdb
+  - docker
 ---
 在写[`白马官网`](https://itbaima.cn)的运维监控系统的时候, 信息上报这一部分需要用到时间序列数据库-InfluxDB, 所以在本地的服务器上安装了InfluxDB
 
