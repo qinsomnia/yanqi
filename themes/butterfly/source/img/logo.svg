@@ -1,0 +1,51 @@
+<svg width="176" height="215" viewBox="0 0 176 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes grow {
+  0% {
+    stroke-dashoffset: 1px;
+    stroke-dasharray: 0 700px;
+    opacity: 0
+  }
+
+  10% {
+    opacity: 1;
+    transform: translate(0,1%)
+  }
+
+  20% {
+    transform: translate(0,0)
+  }
+
+  40%,85% {
+    stroke-dasharray: 700px 0
+  }
+
+  95% {
+    stroke-dasharray: 0 700px
+  }
+}
+
+@media (prefers-reduced-motion) {
+  path {
+    animation: none!important;
+    stroke-dasharray: unset!important
+  }
+}
+
+path {
+  stroke-dashoffset: 1px;
+  stroke-dasharray: 700px 0;
+  animation: grow 10s ease forwards infinite;
+  stroke: #303030;
+  animation-delay: 0s
+}
+
+@media (prefers-color-scheme: dark) {
+  path {
+    stroke:#fdfdfd
+  }
+}
+</style>
+<path  stroke-width="7" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+  d="M63.7025 14C63.7025 14 63.7024 80 83.7024 73C103.702 66 114.703 14 114.703 14V141.5C114.703 141.5 114.702 188.5 83.7024 197.5C52.7023 206.5 26.5 174.651 43 161.5C59.5 148.349 63.7025 147.5 142.5 119"/>
+</svg>
