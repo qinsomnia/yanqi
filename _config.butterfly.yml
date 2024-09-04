@@ -227,7 +227,7 @@ aside:
       link: https://github.com/qinsomnia
   card_announcement:
     enable: true
-    content: insomnia makes me unhurried
+    content: I want to know you irrespective of race, religion, color.
   card_recent_post:
     enable: false
     limit: 5 # if set 0 will show all
