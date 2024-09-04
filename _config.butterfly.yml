@@ -27,7 +27,12 @@ code_word_wrap: false
 #   icon: link || the description || color
 social:
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a'
+  iab material-symbols--mail-rounded: mailto:hi@yanqi.me || Email || '#24292e'
+  iab simple-icons--github: https://github.com/qinsomnia || Github || '#24292e'
+  iab simple-icons--x: https://x.com/yanqi1712 || Twitter || '#24292e'
+  iab simple-icons--instagram: https://www.instagram.com/qinsonnnia || Instagram || '#24292e'
+  iab simple-icons--bilibili: https://space.bilibili.com/179130191 || 哔哩哔哩 || '#24292e'
 
 # Image (圖片設置)
 # --------------------------------------
@@ -221,7 +226,7 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: iab carbon--logo-github
       text: Follow Me
       link: https://github.com/qinsomnia
