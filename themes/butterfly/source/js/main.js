@@ -851,12 +851,13 @@ document.addEventListener('DOMContentLoaded', function () {
     GLOBAL_CONFIG.islazyload && lazyloadImg()
     GLOBAL_CONFIG.copyright !== undefined && addCopyright()
 
-    if (GLOBAL_CONFIG.autoDarkmode) {
-      window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
-        if (btf.saveToLocal.get('theme') !== undefined) return
-        e.matches ? handleThemeChange('dark') : handleThemeChange('light')
-      })
-    }
+    // 注释掉后，修复不自动切换主题
+    // if (GLOBAL_CONFIG.autoDarkmode) {
+    //   window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+    //     if (btf.saveToLocal.get('theme') !== undefined) return
+    //     e.matches ? handleThemeChange('dark') : handleThemeChange('light')
+    //   })
+    // }
   }
 
   const forPostFn = () => {
